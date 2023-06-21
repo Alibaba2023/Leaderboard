@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <!-- You are encouraged to replace this logo with your own! Otherwise, you can also remove it. -->
   <h3><b>Leaderboard</b></h3>
 
 </div>
@@ -10,8 +10,8 @@
 
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Leaderboard\] ](#-Leaderboard-)
+- [ 📗 Table of Contents ](#-table-of-contents)
+- [ 📖 Leaderboard ](#-Leaderboard-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -32,9 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Leaderboard] <a name="about-project"></a>
+# 📖 Leaderboard  <a name="about-project"></a>
 
-**[Leaderboard]** is a javaScript project that allow users to add and remove scores.
+**Leaderboard** is a JavaScript project that allows users to add and remove scores.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -55,9 +55,9 @@
 
 ### Key Features <a name="key-features"></a>
 
--  **[Main page]**
--  **[Responsive]**
--  **[Good look and feel]**
+-  **Main page**
+-  **Responsive**
+-  **Good look and feel**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,7 +65,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- ✅ Comong soon ...
+- ✅ Coming soon ...
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -78,7 +78,7 @@
 
 1. Download or clone this [repostory](https://github.com/Alibaba2023/Leaderboard).
 2. Provide a browser.
-3. Open the `index.html` file using webpage browser.
+3. Open the `index.html` file using the webpage browser.
 
 ### Prerequisites
 
@@ -86,29 +86,12 @@
 
 - ✔ [Git](https://git-scm.com/downloads) installed in your machine.
 - ✔ Sign in or sign up to your [Github](https://github.com/) account.
-- ✔ A professional editer such as [VS Code](https://code.visualstudio.com/download).
+- ✔ A professional editor such as [VS Code](https://code.visualstudio.com/download).
 - ✔ An Updated web browser such as Google Chrome, you can download it from [here](https://www.google.com/chrome/).
 - ✔ [Node.js](https://nodejs.org/en/download) installed in your machine.
 - ✔ Lighthouse.
 - ✔ Webhint
 
-```sh
-npm init -y
-npm install --save-dev hint@7.x
-npx hint .
-```
-
-- ✔ Stylelint
-
-```sh
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-```
-
-- ✔ ESLint
-
-```sh
-npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
-```
 
 ### Setup
 
@@ -117,20 +100,27 @@ npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-i
 - Example commands:
 
 ```sh
-  cd [YOUR FOLDER]
+  cd  < YOUR-FOLDER >
   git clone https://github.com/Alibaba2023/Leaderboard
 ```
 
 ### Install
 
-- Install this project by cloning or downloading the master branch of this [repository](https://github.com/Alibaba2023/Leaderboard) and run `index.html` file on the root of repository.
+-  To install this project run the commands below
+
+  
+```sh
+npm install
+npm run build
+npm start
+```
 
 ### Usage
 
 - To run the project, execute the following command:
 
 ```sh
- cd [YOUR FOLDER]
+ cd < YOUR FOLDER >
  git clone https://github.com/Alibaba2023/Leaderboard
 ```
 
