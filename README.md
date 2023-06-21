@@ -166,8 +166,8 @@ npx eslint .
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Client interaction]**
-- [ ] **[Deploy to a universal server]**
+- [ ] **Client interaction**
+- [ ] **Deploy to a universal server**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
