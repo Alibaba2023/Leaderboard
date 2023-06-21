@@ -1,7 +1,104 @@
+/* General setting */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
   list-style: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  border: none;
+}
+
+html {
+  font-size: 62.5%;
+  min-width: 350px;
+}
+
+/* main style */
+.container {
+  margin: 0 auto;
+  margin-top: 8rem;
+  background-color: lightblue;
+  border-radius: 9px;
+  width: 75%;
+  padding: 2rem;
+}
+
+.header-heading {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.contant-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+}
+
+.score-list-heading-contanier {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.score-list-heading {
+  font-size: 2rem;
+}
+
+.refresh-btn {
+  background-color: green;
+  width: 8rem;
+  border: solid darkgreen 1px;
+}
+
+.scores-list {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 2px;
+  font-size: 1.6rem;
+}
+
+.scores-list li {
+  padding: 2px 4px;
+  font-weight: 500;
+}
+
+.scores-list li:nth-child(odd) {
+  background-color: darkred;
+}
+
+.heading-add-score {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.add-score-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.add-score-form input {
+  font-size: 1.6rem;
+  padding: 5px;
+}
+
+.add-score-btn {
+  width: 8rem;
+  align-self: flex-end;
+  background-color: darkred;
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width: 600px) {
+  .contant-container {
+    grid-template-columns: 1fr;
+  }
 }
