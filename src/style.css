@@ -100,5 +100,6 @@ html {
 @media screen and (max-width: 600px) {
   .contant-container {
     grid-template-columns: 1fr;
+    row-gap: 2rem;
   }
 }

@@ -19,19 +19,15 @@
             <button class="btn refresh-btn">Refresh</button>
           </div>
           <ul class="scores-list">
-            <li class="score-list-item">Name: 100</li>
-            <li class="score-list-item">Name: 90</li>
-            <li class="score-list-item">Name: 80</li>
-            <li class="score-list-item">Name: 70</li>
-            <li class="score-list-item">Name: 60</li>
+
           </ul>
         </div>
         <div class="add-score">
           <h3 class="heading-add-score">Add your score</h3>
           <form action="#" class="add-score-form">
             <input type="text" placeholder="Your name" required class="add-name-input">
-            <input type="text" placeholder="Your score" required class="add-score-input">
-            <button type="submit" class="btn add-score-btn">Submit</button>
+            <input type="number" min="0" max="100" placeholder="Your score(0 - 100)" required class="add-score-input">
+            <input type="submit" class="btn add-score-btn" value="Submit">
           </form>
         </div>
       </div>
