@@ -17,17 +17,17 @@
 
 html {
   font-size: 62.5%;
-  min-width: 350px;
 }
 
 /* main style */
 .container {
+  min-width: 350px;
   margin: 0 auto;
   margin-top: 8rem;
   background-color: lightblue;
   border-radius: 9px;
   width: 75%;
-  padding: 2rem;
+  padding: 5rem;
 }
 
 .header-heading {
@@ -66,8 +66,9 @@ html {
 }
 
 .scores-list li {
-  padding: 2px 4px;
+  padding: 4px 8px;
   font-weight: 500;
+  border-radius: 3px;
 }
 
 .scores-list li:nth-child(odd) {
