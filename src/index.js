@@ -14,16 +14,22 @@ refreshBtn.addEventListener('click', () => {
 });
 
 window.addEventListener('load', refreshData());
-// const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
-// const headers = {
-//   'Content-Type': 'application/json',
-// };
-// const body = { 'name': 'scorse' };
 
-// fetch(url, { method: 'POST', headers, body: JSON.stringify(body) })
-//   .then((response) => {
-//     return response.json();
-//   })
-//   .then((data) => {
-//     console.log(data);
-//   });
+/*
+/////////////////////////////////////////////
+/////    Request to change the id   ////////
+////////////////////////////////////////////
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
+const headers = {
+  'Content-Type': 'application/json',
+};
+const body = { 'name': 'scorse' };
+
+fetch(url, { method: 'POST', headers, body: JSON.stringify(body) })
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    console.log(data);
+  });
+  */
