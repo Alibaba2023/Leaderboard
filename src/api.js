@@ -10,7 +10,7 @@ const getData = async () => {
   }
 };
 
-export const refreshData = async () => {
+const refreshData = async () => {
   const scoresList = _.querySelector('.scores-list');
   const data = await getData(); // Call the getData function with await
   const { result } = data;
@@ -19,28 +19,29 @@ export const refreshData = async () => {
   result.forEach((element) => {
     const scoreListItem = _.createElement('li');
     scoreListItem.className = 'score-list-item';
-    scoreListItem.textContent = `${element.userName}: ${element.userScore}`;
+    scoreListItem.textContent = `${element.user}: ${element.score}`;
     scoresList.appendChild(scoreListItem);
   });
 };
 
-export const addData = async () => {
+const addData = async () => {
   const addName = _.querySelector('.add-name-input');
   const addScore = _.querySelector('.add-score-input');
   try {
     if (addName.value !== '' && addScore.value !== '') {
       const dataToSend = {
-        userName: addName.value,
-        userScore: parseInt(addScore.value, 10),
+        user: addName.value,
+        score: parseInt(addScore.value, 10),
       };
-      fetch(url,
-        {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(dataToSend),
-        });
+
+      fetch(url, {
+        method: 'POST',
+        body: JSON.stringify(dataToSend),
+        headers: {
+          'Content-type': 'application/json; charset=UTF-8',
+        },
+      });
+
       addName.value = '';
       addScore.value = '';
     }
@@ -49,3 +50,5 @@ export const addData = async () => {
   }
   return null;
 };
+
+export { addData, refreshData };
